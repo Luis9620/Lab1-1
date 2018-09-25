@@ -36,7 +36,7 @@ def process_dir(path):
         if classify_pic(file_list[i]) > 0.5:
             dog_list.append(file_list[i])
         else:
-            cat_list.append(file_list[i])
+            cat_list.append(file_list[i]) #Need to append path to the list, ex. path + doglist.... Comment by Luis Soto
     return cat_list, dog_list
 
 
